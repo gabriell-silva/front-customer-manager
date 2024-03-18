@@ -1,4 +1,4 @@
-#### Frontend: React + TypeScript + Vite
+### Frontend: React + TypeScript + Vite
 
  ### Frontend que consumirá api de clientes
 
@@ -12,11 +12,13 @@ Instruções para iniciar projeto em sua máquina local para fins de desenvolvim
 🔧 Instalação
 
  - Clone o repositório:
-   - ```git clone git@github.com:gabriell-silva/api-customer-manager.git```
+   - ```git@github.com:gabriell-silva/front-customer-manager.git```
 
  
  - Instalando dependencias: ```npm i```
 
+ - Copiar env_example: ```cp .env_example .env```
+    - Incluir o valor do endpoint API_URL="api que irá consumir"
 
  - Executar projeto 
    - ```npm run dev```
